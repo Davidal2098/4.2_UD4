@@ -50,9 +50,9 @@ public class Calculadora {
     }
 
     public static double potencia() {
-        System.out.println("Ingrese el primer número:");
+        System.out.println("Ingrese la base número:");
         int base = escaner.nextInt();
-        System.out.println("Ingrese el segundo número:");
+        System.out.println("Ingrese el exponente número:");
         int exponente = escaner.nextInt();
         return Math.pow(base, exponente);
     }
