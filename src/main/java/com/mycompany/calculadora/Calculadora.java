@@ -23,6 +23,9 @@ public class Calculadora {
             case 2:
                 System.out.println("La resta es: " + resta());
                 break;
+            case 3:
+                System.out.println("La potencia es: " + potencia());
+                break;
             default:
                 System.out.println("Operación no válida");
                 break;
@@ -43,6 +46,14 @@ public class Calculadora {
         System.out.println("Ingrese el segundo número:");
         int num2 = escaner.nextInt();
         return num1 - num2;
+    }
+
+    public static double potencia() {
+        System.out.println("Ingrese el primer número:");
+        int base = escaner.nextInt();
+        System.out.println("Ingrese el segundo número:");
+        int exponente = escaner.nextInt();
+        return Math.pow(base, exponente);
     }
 
 }
