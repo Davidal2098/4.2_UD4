@@ -14,6 +14,7 @@ public class Calculadora {
         System.out.println("Buenas, qué operación desea realizar:");
         System.out.println("1-Suma");
         System.out.println("2-Resta");
+        System.out.println("3-Potencia");
         int eleccion = escaner.nextInt();
 
         switch (eleccion) {
